@@ -8,3 +8,4 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "95.111.193.77")
+a("koalafy-partner.fn", "95.111.193.77")
