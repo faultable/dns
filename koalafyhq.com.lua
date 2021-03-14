@@ -15,7 +15,7 @@ a("hub", "95.111.193.77")
 -- CNAME records
 cname("key1._domainkey", "key1.koalafyhq.com._domainkey.migadu.com")
 cname("key2._domainkey", "key2.koalafyhq.com._domainkey.migadu.com")
-cname("key3._domainkey", "key3.koalafyhq.com._domainkey.migadu.com"
+cname("key3._domainkey", "key3.koalafyhq.com._domainkey.migadu.com")
 cname("pm-bounces", "pm.mtasv.net")
 
 -- MX records
