@@ -31,6 +31,6 @@ mx(_a, "aspmx2.migadu.com", 20)
 
 -- TXT records
 txt(_a, "hosted-email-verify=guu3bpjg")
-txt(_a, "keybase-site-verification=YUg-w-jB6y3vUtyuxOU8-LH6iyGGuHR80xVdGHSnkSs ")
+txt(_a, "keybase-site-verification=YUg-w-jB6y3vUtyuxOU8-LH6iyGGuHR80xVdGHSnkSs")
 txt(_a, "v=spf1 include:spf.migadu.com -all")
 txt("_dmarc", "v=DMARC1; p=quarantine;")
