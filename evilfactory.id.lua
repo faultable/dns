@@ -8,11 +8,13 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a("blog", "192.46.225.58")
+a("tv", "192.46.225.58")
 a("bw", "192.46.225.58")
 a("umami", "192.46.225.58")
 
 -- AAAA records
 aaaa("blog", "2400:8901::f03c:92ff:fe76:fd45")
+aaaa("tv", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("bw", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("umami", "2400:8901::f03c:92ff:fe76:fd45")
 
