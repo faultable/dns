@@ -7,18 +7,18 @@ ns(_a, "ns03.edgyscale.host")
 ns(_a, "ns04.edgyscale.host")
 
 -- A records
-a(_a, "192.46.225.58") -- ghost
-a("b", "192.46.225.58") -- bitwarden
-a("cloud", "192.46.225.58") -- nextcloud
-a("g", "192.46.225.58") -- gitea
-a("l", "192.46.225.58") -- maloja
-a("m", "192.46.225.58") -- firefly
-a("matrix", "192.46.225.58") -- matrix
-a("n", "192.46.225.58") -- standardnotes
-a("p", "192.46.225.58") -- pixelfed
-a("s", "192.46.225.58") -- pleroma
-a("s3", "192.46.225.58") -- minio
-a("x", "192.46.225.58") -- lynx
+a(_a, "143.198.198.198") -- ghost
+a("b", "143.198.198.198") -- bitwarden
+a("cloud", "143.198.198.198") -- nextcloud
+a("g", "143.198.198.198") -- gitea
+a("l", "143.198.198.198") -- maloja
+a("m", "143.198.198.198") -- firefly
+a("matrix", "143.198.198.198") -- matrix
+a("n", "143.198.198.198") -- standardnotes
+a("p", "143.198.198.198") -- pixelfed
+a("s", "143.198.198.198") -- pleroma
+a("s3", "143.198.198.198") -- minio
+a("x", "143.198.198.198") -- lynx
 
 -- CNAME records
 cname("key1._domainkey", "key1.faultable.dev._domainkey.migadu.com")
