@@ -7,11 +7,11 @@ ns(_a, "ns03.edgyscale.host")
 ns(_a, "ns04.edgyscale.host")
 
 -- A records
-a(_a, "192.46.225.58")
+a(_a, "143.198.198.198")
 a("u", "192.46.225.58")
 
 -- AAAA records
-aaaa(_a, "2400:8901::f03c:92ff:fe76:fd45")
+aaaa(_a, "2400:6180:0:d3::43:d000")
 aaaa("u", "2400:8901::f03c:92ff:fe76:fd45")
 
 -- CNAME records
