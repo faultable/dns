@@ -9,6 +9,7 @@ ns(_a, "ns04.edgyscale.host")
 -- A records
 a(_a, "143.198.198.198") -- ghost
 a("b", "143.198.198.198") -- bitwarden
+a("c", "143.198.198.198") -- wakapi
 a("cloud", "143.198.198.198") -- nextcloud
 a("g", "143.198.198.198") -- gitea
 a("l", "143.198.198.198") -- maloja
