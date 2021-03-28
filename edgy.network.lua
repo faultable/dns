@@ -12,12 +12,14 @@ a("dns", "192.46.229.118")
 a("*.dns", "192.46.229.118")
 a("app", "192.46.225.58")
 a("app.relay", "192.46.225.58")
+a("s", "192.46.225.58")
 
 -- AAAA records
 aaaa(_a, "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("*.dns", "2400:8901::f03c:92ff:fe07:e105")
 aaaa("app", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("app.relay", "2400:8901::f03c:92ff:fe76:fd45")
+aaaa("s", "2400:8901::f03c:92ff:fe76:fd45")
 
 -- CNAME records
 cname("status", "stats.uptimerobot.com")
