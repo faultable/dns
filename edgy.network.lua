@@ -8,17 +8,14 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "192.46.225.58")
-a("dns", "192.46.229.118")
-a("*.dns", "192.46.229.118")
-a("app", "192.46.225.58")
+a("dns", "192.46.225.58")
 a("app.relay", "192.46.225.58")
 a("s", "192.46.225.58")
 a("ipfs", "192.46.225.58")
 
 -- AAAA records
 aaaa(_a, "2400:8901::f03c:92ff:fe76:fd45")
-aaaa("*.dns", "2400:8901::f03c:92ff:fe07:e105")
-aaaa("app", "2400:8901::f03c:92ff:fe76:fd45")
+aaaa("dns", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("app.relay", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("s", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("ipfs", "2400:8901::f03c:92ff:fe76:fd45")
