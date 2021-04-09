@@ -22,6 +22,7 @@ aaaa("ipfs", "2400:8901::f03c:92ff:fe76:fd45")
 
 -- CNAME records
 cname("status", "stats.uptimerobot.com")
+cname("anycast.dns", "edgy-dns.fly.dev")
 
 -- MX records
 mx("relay", "app.relay.edgy.network", 10)
@@ -32,3 +33,4 @@ txt("_github-challenge-80659ef293e67c01e5db9a47632c42cb",	"c7ac584eac")
 txt("_github-challenge-edgytechnology.evilfactory.id", "9d9ca3ea96")
 txt("dkim._domainkey.relay", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb/mdtum6LoDxW/4gJSb5Mtj2Kh3ImK8aQ4aJOuinPeRCQaAjogl9lg7I+pVDbd5qX+opAawdYOjrWbo9FNn767M2PKJZsmG70S5NlNep+xPlKqDjz2k5nZzExNnLbJhfcCeFW4WidodXZbPQwFbj4wFD6+B6N5p2Csm8jkrsSnwIDAQAB")
 txt("relay", "v=spf1 mx -all")
+txt("_acme-challenge.anycast", "anycast.dns.edgy.network.36qkz.flydns.net")
