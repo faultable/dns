@@ -12,6 +12,7 @@ a("dns", "192.46.225.58")
 a("app.relay", "192.46.225.58")
 a("s", "192.46.225.58")
 a("ipfs", "192.46.225.58")
+a("matrix", "192.46.225.58")
 
 -- AAAA records
 aaaa(_a, "2400:8901::f03c:92ff:fe76:fd45")
@@ -19,6 +20,7 @@ aaaa("dns", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("app.relay", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("s", "2400:8901::f03c:92ff:fe76:fd45")
 aaaa("ipfs", "2400:8901::f03c:92ff:fe76:fd45")
+aaaa("matrix", "2400:8901::f03c:92ff:fe76:fd45")
 
 -- CNAME records
 cname("status", "stats.uptimerobot.com")
