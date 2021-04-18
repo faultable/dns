@@ -9,6 +9,7 @@ ns(_a, "ns04.edgyscale.host")
 -- A records
 a(_a, "143.198.198.198")
 a("sso", "143.198.198.198")
+a("drive", "143.198.198.198")
 
 -- CNAME records
 cname("key1._domainkey", "key1.rizaldy.club._domainkey.migadu.com")
