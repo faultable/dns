@@ -25,6 +25,7 @@ cname("key1._domainkey", "key1.faultable.dev._domainkey.migadu.com")
 cname("key2._domainkey", "key2.faultable.dev._domainkey.migadu.com")
 cname("key3._domainkey", "key3.faultable.dev._domainkey.migadu.com")
 cname("www", "bac2bbcf.netlify.app")
+cname("ok.wtf.is.not", "8f2d4ace.netlify.app")
 
 -- MX records
 mx(_a, "aspmx1.migadu.com", 10)
