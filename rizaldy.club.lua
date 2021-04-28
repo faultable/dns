@@ -12,7 +12,7 @@ a("sso", "143.198.198.198")
 a("passwords", "143.198.198.198")
 a("drive", "143.198.198.198")
 
-a("1460", "100.113.100.9")
+a("1460", "100.95.68.42")
 
 -- CNAME records
 cname("key1._domainkey", "key1.rizaldy.club._domainkey.migadu.com")
