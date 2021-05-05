@@ -9,5 +9,8 @@ ns(_a, "ns04.edgyscale.host")
 --- ALIAS records
 alias(_a, "evilfactorylabs.github.io")
 
+--- CNAME records
+cname("www", "evilfactorylabs.github.io")
+
 --- TXT records
 txt("_github-challenge-evilfactorylabs", "877b53fd61")
