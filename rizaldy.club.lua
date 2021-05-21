@@ -8,10 +8,7 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "143.198.198.198")
-a("sso", "143.198.198.198")
 a("passwords", "143.198.198.198")
-a("drive", "143.198.198.198")
-
 a("1460", "100.95.68.42")
 
 -- CNAME records
@@ -20,7 +17,6 @@ cname("key2._domainkey", "key2.rizaldy.club._domainkey.migadu.com")
 cname("key3._domainkey", "key3.rizaldy.club._domainkey.migadu.com")
 cname("fariz", "8f2d4ace.netlify.app")
 cname("karina", "5472ff6bbe82ae5bb2c53c910a4d30c2.netlify.app")
-cname("ok.can.u.tell.me.wtf.is.fariz", "8f2d4ace.netlify.app")
 
 -- MX records
 mx(_a, "aspmx1.migadu.com", 10)
