@@ -8,17 +8,10 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "143.198.198.198") -- ghost
-a("a", "143.198.198.198") -- archivebox
+a("a", "143.198.198.198") -- espial
 a("c", "143.198.198.198") -- wakapi
-a("g", "143.198.198.198") -- gitea
-a("l", "143.198.198.198") -- maloja
-a("m", "143.198.198.198") -- firefly
-a("n", "143.198.198.198") -- standardnotes
-a("p", "143.198.198.198") -- pixelfed
-a("s", "143.198.198.198") -- pleroma
-a("s3", "143.198.198.198") -- minio
 a("u", "143.198.198.198") -- umami
-a("x", "143.198.198.198") -- lynx
+a("s3", "143.198.198.198") -- minio
 
 -- CNAME records
 cname("key1._domainkey", "key1.faultable.dev._domainkey.migadu.com")
