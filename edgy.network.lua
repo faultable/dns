@@ -34,8 +34,8 @@ cname("status", "stats.uptimerobot.com")
 cname("anycast.dns", "edgy-dns.fly.dev")
 
 -- MX records
-mx("relay", "mx.simplelogin.co", 10)
-mx("relay", "mx.simplelogin.co", 20)
+mx("relay", "mx1.simplelogin.co", 10)
+mx("relay", "mx2.simplelogin.co", 20)
 
 -- TXT records
 txt("_dmarc.relay", "v=DMARC1; p=quarantine; pct=100; adkim=r; aspf=s")
