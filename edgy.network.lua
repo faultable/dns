@@ -29,7 +29,7 @@ aaaa("api.ipfs", "2400:6180:0:d0::d7:4001")
 aaaa("matrix", "2400:8901::f03c:92ff:fe76:fd45")
 
 -- CNAME records
-cname("dkim._domainkey.relay", "dkim._domainkey.simplelogin.co.")
+cname("dkim._domainkey.relay", "dkim._domainkey.simplelogin.co")
 cname("status", "stats.uptimerobot.com")
 cname("anycast.dns", "edgy-dns.fly.dev")
 
