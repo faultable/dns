@@ -12,17 +12,31 @@ a("passwords", "143.198.198.198")
 a("1460", "100.95.68.42")
 
 -- CNAME records
+-- migadu
 cname("key1._domainkey", "key1.rizaldy.club._domainkey.migadu.com")
 cname("key2._domainkey", "key2.rizaldy.club._domainkey.migadu.com")
 cname("key3._domainkey", "key3.rizaldy.club._domainkey.migadu.com")
+-- netlify
 cname("fariz", "8f2d4ace.netlify.app")
 cname("karina", "5472ff6bbe82ae5bb2c53c910a4d30c2.netlify.app")
+-- simplelogin
+cname("dkim._domainkey.private", "dkim._domainkey.simplelogin.co")
 
 -- MX records
+-- migadu
 mx(_a, "aspmx1.migadu.com", 10)
 mx(_a, "aspmx2.migadu.com", 20)
 
+-- simplelogin
+mx("private", "mx1.simplelogin.co", 10)
+mx("private", "mx2.simplelogin.co", 20)
+
 -- TXT records
+-- migadu
 txt(_a, "hosted-email-verify=02ubf6hp")
 txt(_a, "v=spf1 include:spf.migadu.com -all")
 txt("_dmarc", "v=DMARC1; p=quarantine;")
+
+-- simplelogin
+txt("_dmarc.private", "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s")
+txt("private", "v=spf1 include:simplelogin.co -all")

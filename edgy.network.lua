@@ -38,6 +38,6 @@ mx("relay", "mx2.simplelogin.co", 20)
 txt("_dmarc.relay", "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s")
 txt("relay", "v=spf1 include:simplelogin.co -all")
 
-txt("_github-challenge-80659ef293e67c01e5db9a47632c42cb",	"c7ac584eac")
+txt("_github-challenge-80659ef293e67c01e5db9a47632c42cb", "c7ac584eac")
 txt("_github-challenge-edgytechnology.evilfactory.id", "9d9ca3ea96")
 txt("_acme-challenge.anycast", "anycast.dns.edgy.network.36qkz.flydns.net")
