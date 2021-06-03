@@ -10,7 +10,6 @@ ns(_a, "ns04.edgyscale.host")
 a("blog", "128.199.89.41")
 a("tv", "128.199.89.41")
 a("bw", "128.199.89.41")
-a("g", "128.199.89.41")
 a("i", "128.199.89.41")
 a("u", "128.199.89.41")
 
@@ -18,16 +17,17 @@ a("u", "128.199.89.41")
 aaaa("blog", "2400:6180:0:d0::d7:4001")
 aaaa("tv", "2400:6180:0:d0::d7:4001")
 aaaa("bw", "2400:6180:0:d0::d7:4001")
-aaaa("g", "2400:6180:0:d0::d7:4001")
 aaaa("i", "2400:6180:0:d0::d7:4001")
+aaaa("u", "2400:6180:0:d0::d7:4001")
 
 -- CNAME records
 cname("handbook", "evilfactorylabs-handbook.netlify.com")
+cname("rndc", "evilfactorylabs-rndc.netlify.app")
+cname("rust", "evilfactorylabs-belajar-rust.netlify.app")
+
 cname("key1._domainkey", "key1.evilfactory.id._domainkey.migadu.com")
 cname("key2._domainkey", "key2.evilfactory.id._domainkey.migadu.com")
 cname("key3._domainkey", "key3.evilfactory.id._domainkey.migadu.com")
-cname("rndc", "evilfactorylabs-rndc.netlify.app")
-cname("rust", "evilfactorylabs-belajar-rust.netlify.app")
 
 -- MX records
 mx(_a, "aspmx1.migadu.com", 10)
