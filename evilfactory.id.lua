@@ -7,6 +7,7 @@ ns(_a, "ns03.edgyscale.host")
 ns(_a, "ns04.edgyscale.host")
 
 -- A records
+a(_a, "128.199.89.41")
 a("blog", "128.199.89.41")
 a("tv", "128.199.89.41")
 a("bw", "128.199.89.41")
