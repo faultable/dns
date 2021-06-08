@@ -30,7 +30,6 @@ aaaa("api.ipfs", "2400:6180:0:d0::d7:4001")
 
 -- CNAME records
 cname("dkim._domainkey.relay", "dkim._domainkey.simplelogin.co")
-cname("anycast.dns", "edgy-dns.fly.dev")
 
 -- MX records
 mx("relay", "mx1.simplelogin.co", 10)
