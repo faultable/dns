@@ -8,6 +8,7 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "128.199.89.41")
+a("anycast.dns", "128.199.89.41")
 a("*.dns", "128.199.89.41")
 a("dns", "128.199.89.41")
 a("s", "128.199.89.41")
@@ -18,6 +19,7 @@ a("api.ipfs", "128.199.89.41")
 
 -- AAAA records
 aaaa(_a, "2400:6180:0:d0::d7:4001")
+aaaa("anycast.dns", "2400:6180:0:d0::d7:4001")
 aaaa("*.dns", "2400:6180:0:d0::d7:4001")
 aaaa("dns", "2400:6180:0:d0::d7:4001")
 aaaa("s", "2400:6180:0:d0::d7:4001")
@@ -40,4 +42,3 @@ txt("relay", "v=spf1 include:simplelogin.co -all")
 
 txt("_github-challenge-80659ef293e67c01e5db9a47632c42cb", "c7ac584eac")
 txt("_github-challenge-edgytechnology.evilfactory.id", "9d9ca3ea96")
-txt("_acme-challenge.anycast", "anycast.dns.edgy.network.36qkz.flydns.net")
