@@ -16,9 +16,7 @@ a("1460", "100.95.68.42")
 cname("key1._domainkey", "key1.rizaldy.club._domainkey.migadu.com")
 cname("key2._domainkey", "key2.rizaldy.club._domainkey.migadu.com")
 cname("key3._domainkey", "key3.rizaldy.club._domainkey.migadu.com")
--- netlify
-cname("fariz", "8f2d4ace.netlify.app")
-cname("karina", "5472ff6bbe82ae5bb2c53c910a4d30c2.netlify.app")
+
 -- simplelogin
 cname("dkim._domainkey.private", "dkim._domainkey.simplelogin.co")
 
