@@ -9,17 +9,13 @@ ns(_a, "ns04.edgyscale.host")
 -- A records
 a(_a, "128.199.89.41")
 a("blog", "128.199.89.41")
-a("tv", "128.199.89.41")
 a("bw", "128.199.89.41")
 a("i", "128.199.89.41")
-a("u", "128.199.89.41")
 
 -- AAAA records
 aaaa("blog", "2400:6180:0:d0::d7:4001")
-aaaa("tv", "2400:6180:0:d0::d7:4001")
 aaaa("bw", "2400:6180:0:d0::d7:4001")
 aaaa("i", "2400:6180:0:d0::d7:4001")
-aaaa("u", "2400:6180:0:d0::d7:4001")
 
 -- CNAME records
 cname("handbook", "evilfactorylabs-handbook.netlify.com")

@@ -12,12 +12,10 @@ alias(_a, "evilfactorylabs.github.io")
 -- A records
 a("dns", "27.112.79.80")
 a("*.dns", "27.112.79.80")
+
 a("u", "128.199.89.41")
 a("s", "128.199.89.41")
 a("y", "128.199.89.41")
-a("st", "128.199.89.41")
-a("ipfs", "128.199.89.41")
-a("api.ipfs", "128.199.89.41")
 
 -- AAAA records
 aaaa("dns", "2001:470:ecbf::666")
@@ -29,9 +27,6 @@ aaaa("*.dns", "2001:470:ecbf::53")
 aaaa("u", "2400:6180:0:d0::d7:4001")
 aaaa("s", "2400:6180:0:d0::d7:4001")
 aaaa("y", "2400:6180:0:d0::d7:4001")
-aaaa("st", "2400:6180:0:d0::d7:4001")
-aaaa("ipfs", "2400:6180:0:d0::d7:4001")
-aaaa("api.ipfs", "2400:6180:0:d0::d7:4001")
 
 -- CNAME records
 cname("www", "evilfactorylabs.github.io")
