@@ -6,8 +6,10 @@ ns(_a, "ns02.edgyscale.host")
 ns(_a, "ns03.edgyscale.host")
 ns(_a, "ns04.edgyscale.host")
 
+--- ALIAS records
+alias(_a, "evilfactorylabs.github.io")
+
 -- A records
-a(_a, "76.76.21.21")
 a("dns", "27.112.79.80")
 a("*.dns", "27.112.79.80")
 a("u", "128.199.89.41")
@@ -32,7 +34,7 @@ aaaa("ipfs", "2400:6180:0:d0::d7:4001")
 aaaa("api.ipfs", "2400:6180:0:d0::d7:4001")
 
 -- CNAME records
-cname("www", "cname.vercel-dns.com")
+cname("www", "evilfactorylabs.github.io")
 cname("dkim._domainkey.relay", "dkim._domainkey.simplelogin.co")
 
 -- MX records
