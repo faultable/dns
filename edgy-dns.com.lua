@@ -8,7 +8,8 @@ ns(_a, "ns04.edgyscale.host")
 
 -- A records
 a(_a, "27.112.79.80")
-a("odoh", "27.112.79.208")
+a("odoh", "27.112.79.80")
+a("proxy", "27.112.79.208")
 
 -- AAAA records
 aaaa(_a, "2001:470:ecbf::666")
